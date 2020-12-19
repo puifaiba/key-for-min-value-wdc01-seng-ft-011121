@@ -7,6 +7,6 @@ def key_for_min_value(name_hash)
     if value < min_value do
       min_value = value
     end
-  name_hash[name]
+  name_hash[:name]
   end
 end
